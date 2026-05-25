@@ -1,0 +1,644 @@
+{
+  "skills": {
+    "total": 79,
+    "categories": {
+      "creative": 20,
+      "software-development": 11,
+      "productivity": 9,
+      "github": 6,
+      "apple": 5,
+      "autonomous-ai-agents": 5,
+      "media": 5,
+      "research": 5,
+      "devops": 3,
+      "gaming": 2,
+      "data-science": 1,
+      "email": 1,
+      "mcp": 1,
+      "mlops": 1,
+      "note-taking": 1,
+      "red-teaming": 1,
+      "smart-home": 1,
+      "social-media": 1
+    },
+    "skills": [
+      {
+        "name": "apple-reminders",
+        "category": "apple",
+        "created": "2026-05-20T09:03:33.995490+00:00",
+        "modified": "2026-05-20T09:03:33.995490+00:00"
+      },
+      {
+        "name": "macos-computer-use",
+        "category": "apple",
+        "created": "2026-05-23T16:08:14.360349+00:00",
+        "modified": "2026-05-23T16:08:14.360817+00:00"
+      },
+      {
+        "name": "imessage",
+        "category": "apple",
+        "created": "2026-05-20T09:03:33.995640+00:00",
+        "modified": "2026-05-20T09:03:33.995640+00:00"
+      },
+      {
+        "name": "findmy",
+        "category": "apple",
+        "created": "2026-05-20T09:03:33.995563+00:00",
+        "modified": "2026-05-20T09:03:33.995563+00:00"
+      },
+      {
+        "name": "apple-notes",
+        "category": "apple",
+        "created": "2026-05-20T09:03:33.995418+00:00",
+        "modified": "2026-05-20T09:03:33.995418+00:00"
+      },
+      {
+        "name": "claude-code",
+        "category": "autonomous-ai-agents",
+        "created": "2026-05-20T09:03:33.996103+00:00",
+        "modified": "2026-05-20T09:03:33.996103+00:00"
+      },
+      {
+        "name": "kanban-codex-lane",
+        "category": "autonomous-ai-agents",
+        "created": "2026-05-20T09:03:33.996435+00:00",
+        "modified": "2026-05-20T09:03:33.996435+00:00"
+      },
+      {
+        "name": "codex",
+        "category": "autonomous-ai-agents",
+        "created": "2026-05-20T09:03:33.996197+00:00",
+        "modified": "2026-05-20T09:03:33.996197+00:00"
+      },
+      {
+        "name": "hermes-agent",
+        "category": "autonomous-ai-agents",
+        "created": "2026-05-20T09:03:33.996336+00:00",
+        "modified": "2026-05-20T09:03:33.996336+00:00"
+      },
+      {
+        "name": "opencode",
+        "category": "autonomous-ai-agents",
+        "created": "2026-05-20T09:03:33.996613+00:00",
+        "modified": "2026-05-20T09:03:33.996613+00:00"
+      },
+      {
+        "name": "creative-ideation",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.008052+00:00",
+        "modified": "2026-05-20T09:03:34.008052+00:00"
+      },
+      {
+        "name": "comfyui",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.005479+00:00",
+        "modified": "2026-05-20T09:03:34.005479+00:00"
+      },
+      {
+        "name": "baoyu-infographic",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.002865+00:00",
+        "modified": "2026-05-20T09:03:34.002865+00:00"
+      },
+      {
+        "name": "songwriting-and-ai-music",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.018291+00:00",
+        "modified": "2026-05-20T09:03:34.018291+00:00"
+      },
+      {
+        "name": "ascii-video",
+        "category": "creative",
+        "created": "2026-05-20T09:03:33.997168+00:00",
+        "modified": "2026-05-20T09:03:33.997168+00:00"
+      },
+      {
+        "name": "touchdesigner-mcp",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.018384+00:00",
+        "modified": "2026-05-20T09:03:34.018384+00:00"
+      },
+      {
+        "name": "excalidraw",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.008424+00:00",
+        "modified": "2026-05-20T09:03:34.008424+00:00"
+      },
+      {
+        "name": "claude-design",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.005367+00:00",
+        "modified": "2026-05-20T09:03:34.005367+00:00"
+      },
+      {
+        "name": "ascii-art",
+        "category": "creative",
+        "created": "2026-05-20T09:03:33.996986+00:00",
+        "modified": "2026-05-20T09:03:33.996986+00:00"
+      },
+      {
+        "name": "design-md",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.008243+00:00",
+        "modified": "2026-05-20T09:03:34.008243+00:00"
+      },
+      {
+        "name": "baoyu-comic",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.000667+00:00",
+        "modified": "2026-05-20T09:03:34.000667+00:00"
+      },
+      {
+        "name": "popular-web-designs",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.012389+00:00",
+        "modified": "2026-05-20T09:03:34.012389+00:00"
+      },
+      {
+        "name": "manim-video",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.009056+00:00",
+        "modified": "2026-05-20T09:03:34.009056+00:00"
+      },
+      {
+        "name": "pixel-art",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.011796+00:00",
+        "modified": "2026-05-20T09:03:34.011796+00:00"
+      },
+      {
+        "name": "pretext",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.017757+00:00",
+        "modified": "2026-05-20T09:03:34.017757+00:00"
+      },
+      {
+        "name": "baoyu-article-illustrator",
+        "category": "creative",
+        "created": "2026-05-20T09:03:33.998405+00:00",
+        "modified": "2026-05-20T09:03:33.998405+00:00"
+      },
+      {
+        "name": "humanizer",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.008880+00:00",
+        "modified": "2026-05-20T09:03:34.008880+00:00"
+      },
+      {
+        "name": "p5js",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.010291+00:00",
+        "modified": "2026-05-20T09:03:34.010291+00:00"
+      },
+      {
+        "name": "architecture-diagram",
+        "category": "creative",
+        "created": "2026-05-20T09:03:33.996778+00:00",
+        "modified": "2026-05-20T09:03:33.996778+00:00"
+      },
+      {
+        "name": "sketch",
+        "category": "creative",
+        "created": "2026-05-20T09:03:34.018183+00:00",
+        "modified": "2026-05-20T09:03:34.018183+00:00"
+      },
+      {
+        "name": "jupyter-live-kernel",
+        "category": "data-science",
+        "created": "2026-05-20T09:03:34.020285+00:00",
+        "modified": "2026-05-20T09:03:34.020285+00:00"
+      },
+      {
+        "name": "kanban-worker",
+        "category": "devops",
+        "created": "2026-05-20T09:03:34.020525+00:00",
+        "modified": "2026-05-20T09:03:34.020525+00:00"
+      },
+      {
+        "name": "webhook-subscriptions",
+        "category": "devops",
+        "created": "2026-05-20T09:03:34.020613+00:00",
+        "modified": "2026-05-20T09:03:34.020613+00:00"
+      },
+      {
+        "name": "kanban-orchestrator",
+        "category": "devops",
+        "created": "2026-05-20T09:03:34.020408+00:00",
+        "modified": "2026-05-20T09:03:34.020408+00:00"
+      },
+      {
+        "name": "himalaya",
+        "category": "email",
+        "created": "2026-05-20T09:03:34.021145+00:00",
+        "modified": "2026-05-20T09:03:34.021145+00:00"
+      },
+      {
+        "name": "minecraft-modpack-server",
+        "category": "gaming",
+        "created": "2026-05-20T09:03:34.021467+00:00",
+        "modified": "2026-05-20T09:03:34.021467+00:00"
+      },
+      {
+        "name": "pokemon-player",
+        "category": "gaming",
+        "created": "2026-05-20T09:03:34.021579+00:00",
+        "modified": "2026-05-20T09:03:34.021579+00:00"
+      },
+      {
+        "name": "github-auth",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.021899+00:00",
+        "modified": "2026-05-20T09:03:34.021899+00:00"
+      },
+      {
+        "name": "github-repo-management",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.022877+00:00",
+        "modified": "2026-05-20T09:03:34.022877+00:00"
+      },
+      {
+        "name": "github-pr-workflow",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.022512+00:00",
+        "modified": "2026-05-20T09:03:34.022512+00:00"
+      },
+      {
+        "name": "github-code-review",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.022074+00:00",
+        "modified": "2026-05-20T09:03:34.022074+00:00"
+      },
+      {
+        "name": "github-issues",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.022270+00:00",
+        "modified": "2026-05-20T09:03:34.022270+00:00"
+      },
+      {
+        "name": "codebase-inspection",
+        "category": "github",
+        "created": "2026-05-20T09:03:34.021807+00:00",
+        "modified": "2026-05-20T09:03:34.021807+00:00"
+      },
+      {
+        "name": "native-mcp",
+        "category": "mcp",
+        "created": "2026-05-20T09:03:34.024204+00:00",
+        "modified": "2026-05-20T09:03:34.024204+00:00"
+      },
+      {
+        "name": "youtube-content",
+        "category": "media",
+        "created": "2026-05-20T09:03:34.024676+00:00",
+        "modified": "2026-05-20T09:03:34.024676+00:00"
+      },
+      {
+        "name": "heartmula",
+        "category": "media",
+        "created": "2026-05-20T09:03:34.024440+00:00",
+        "modified": "2026-05-20T09:03:34.024440+00:00"
+      },
+      {
+        "name": "spotify",
+        "category": "media",
+        "created": "2026-05-20T09:03:34.024600+00:00",
+        "modified": "2026-05-20T09:03:34.024600+00:00"
+      },
+      {
+        "name": "songsee",
+        "category": "media",
+        "created": "2026-05-20T09:03:34.024509+00:00",
+        "modified": "2026-05-20T09:03:34.024509+00:00"
+      },
+      {
+        "name": "gif-search",
+        "category": "media",
+        "created": "2026-05-20T09:03:34.024346+00:00",
+        "modified": "2026-05-20T09:03:34.024346+00:00"
+      },
+      {
+        "name": "huggingface-hub",
+        "category": "mlops",
+        "created": "2026-05-20T09:03:34.025862+00:00",
+        "modified": "2026-05-20T09:03:34.025862+00:00"
+      },
+      {
+        "name": "obsidian",
+        "category": "note-taking",
+        "created": "2026-05-20T09:03:34.028966+00:00",
+        "modified": "2026-05-20T09:03:34.028966+00:00"
+      },
+      {
+        "name": "nano-pdf",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.030359+00:00",
+        "modified": "2026-05-20T09:03:34.030359+00:00"
+      },
+      {
+        "name": "maps",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.030140+00:00",
+        "modified": "2026-05-20T09:03:34.030140+00:00"
+      },
+      {
+        "name": "teams-meeting-pipeline",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.035741+00:00",
+        "modified": "2026-05-20T09:03:34.035741+00:00"
+      },
+      {
+        "name": "linear",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.029942+00:00",
+        "modified": "2026-05-20T09:03:34.029942+00:00"
+      },
+      {
+        "name": "notion",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.030470+00:00",
+        "modified": "2026-05-20T09:03:34.030470+00:00"
+      },
+      {
+        "name": "airtable",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.029143+00:00",
+        "modified": "2026-05-20T09:03:34.029143+00:00"
+      },
+      {
+        "name": "powerpoint",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.031007+00:00",
+        "modified": "2026-05-20T09:03:34.031007+00:00"
+      },
+      {
+        "name": "google-workspace",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.029233+00:00",
+        "modified": "2026-05-20T09:03:34.029233+00:00"
+      },
+      {
+        "name": "ocr-and-documents",
+        "category": "productivity",
+        "created": "2026-05-20T09:03:34.030694+00:00",
+        "modified": "2026-05-20T09:03:34.030694+00:00"
+      },
+      {
+        "name": "godmode",
+        "category": "red-teaming",
+        "created": "2026-05-20T09:03:34.035871+00:00",
+        "modified": "2026-05-20T09:03:34.035871+00:00"
+      },
+      {
+        "name": "blogwatcher",
+        "category": "research",
+        "created": "2026-05-20T09:03:34.039277+00:00",
+        "modified": "2026-05-20T09:03:34.039277+00:00"
+      },
+      {
+        "name": "polymarket",
+        "category": "research",
+        "created": "2026-05-20T09:03:34.039489+00:00",
+        "modified": "2026-05-20T09:03:34.039489+00:00"
+      },
+      {
+        "name": "llm-wiki",
+        "category": "research",
+        "created": "2026-05-20T09:03:34.039387+00:00",
+        "modified": "2026-05-20T09:03:34.039387+00:00"
+      },
+      {
+        "name": "arxiv",
+        "category": "research",
+        "created": "2026-05-20T09:03:34.039037+00:00",
+        "modified": "2026-05-20T09:03:34.039037+00:00"
+      },
+      {
+        "name": "research-paper-writing",
+        "category": "research",
+        "created": "2026-05-20T09:03:34.040130+00:00",
+        "modified": "2026-05-20T09:03:34.040130+00:00"
+      },
+      {
+        "name": "openhue",
+        "category": "smart-home",
+        "created": "2026-05-20T09:03:34.047455+00:00",
+        "modified": "2026-05-20T09:03:34.047455+00:00"
+      },
+      {
+        "name": "xurl",
+        "category": "social-media",
+        "created": "2026-05-20T09:03:34.047624+00:00",
+        "modified": "2026-05-20T09:03:34.047624+00:00"
+      },
+      {
+        "name": "test-driven-development",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.049267+00:00",
+        "modified": "2026-05-20T09:03:34.049267+00:00"
+      },
+      {
+        "name": "systematic-debugging",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.049148+00:00",
+        "modified": "2026-05-20T09:03:34.049148+00:00"
+      },
+      {
+        "name": "plan",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048107+00:00",
+        "modified": "2026-05-20T09:03:34.048107+00:00"
+      },
+      {
+        "name": "hermes-agent-skill-authoring",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.047868+00:00",
+        "modified": "2026-05-20T09:03:34.047868+00:00"
+      },
+      {
+        "name": "python-debugpy",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048252+00:00",
+        "modified": "2026-05-20T09:03:34.048252+00:00"
+      },
+      {
+        "name": "writing-plans",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.049361+00:00",
+        "modified": "2026-05-20T09:03:34.049361+00:00"
+      },
+      {
+        "name": "spike",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048522+00:00",
+        "modified": "2026-05-20T09:03:34.048522+00:00"
+      },
+      {
+        "name": "requesting-code-review",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048390+00:00",
+        "modified": "2026-05-20T09:03:34.048390+00:00"
+      },
+      {
+        "name": "node-inspect-debugger",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048003+00:00",
+        "modified": "2026-05-20T09:03:34.048003+00:00"
+      },
+      {
+        "name": "debugging-hermes-tui-commands",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.047762+00:00",
+        "modified": "2026-05-20T09:03:34.047762+00:00"
+      },
+      {
+        "name": "subagent-driven-development",
+        "category": "software-development",
+        "created": "2026-05-20T09:03:34.048656+00:00",
+        "modified": "2026-05-20T09:03:34.048656+00:00"
+      }
+    ],
+    "timeline": {
+      "2026-05-20": [
+        "apple-reminders",
+        "imessage",
+        "findmy",
+        "apple-notes",
+        "claude-code",
+        "kanban-codex-lane",
+        "codex",
+        "hermes-agent",
+        "opencode",
+        "creative-ideation",
+        "comfyui",
+        "baoyu-infographic",
+        "songwriting-and-ai-music",
+        "ascii-video",
+        "touchdesigner-mcp",
+        "excalidraw",
+        "claude-design",
+        "ascii-art",
+        "design-md",
+        "baoyu-comic",
+        "popular-web-designs",
+        "manim-video",
+        "pixel-art",
+        "pretext",
+        "baoyu-article-illustrator",
+        "humanizer",
+        "p5js",
+        "architecture-diagram",
+        "sketch",
+        "jupyter-live-kernel",
+        "kanban-worker",
+        "webhook-subscriptions",
+        "kanban-orchestrator",
+        "himalaya",
+        "minecraft-modpack-server",
+        "pokemon-player",
+        "github-auth",
+        "github-repo-management",
+        "github-pr-workflow",
+        "github-code-review",
+        "github-issues",
+        "codebase-inspection",
+        "native-mcp",
+        "youtube-content",
+        "heartmula",
+        "spotify",
+        "songsee",
+        "gif-search",
+        "huggingface-hub",
+        "obsidian",
+        "nano-pdf",
+        "maps",
+        "teams-meeting-pipeline",
+        "linear",
+        "notion",
+        "airtable",
+        "powerpoint",
+        "google-workspace",
+        "ocr-and-documents",
+        "godmode",
+        "blogwatcher",
+        "polymarket",
+        "llm-wiki",
+        "arxiv",
+        "research-paper-writing",
+        "openhue",
+        "xurl",
+        "test-driven-development",
+        "systematic-debugging",
+        "plan",
+        "hermes-agent-skill-authoring",
+        "python-debugpy",
+        "writing-plans",
+        "spike",
+        "requesting-code-review",
+        "node-inspect-debugger",
+        "debugging-hermes-tui-commands",
+        "subagent-driven-development"
+      ],
+      "2026-05-23": [
+        "macos-computer-use"
+      ]
+    }
+  },
+  "memory": {
+    "user": [
+      "用户偏好中文回复。使用 NotebookLM 时优先直接用 NotebookLM 内置功能（infographic/video/audio 生成），而非外部工具或手动工作流。喜欢生成可视化内容（信息图、视频）并直接发送媒体文件。工作风格高效直接——能跳过的确认步骤就跳过，但真正不确定的地方一定要问。",
+      "用户期望 agent 自行验证操作结果，不要反复发截图让用户帮忙确认。当视觉工具不可用时，应先用 OCR（tesseract）、AX tree、JS 注入等方式自行检查，只在所有方法都失败时才找用户。偏好高效直接——能自行验证就自行验证。",
+      "用户期望我先自己验证结果（截图/OCR/视觉分析），而不是把截图发给用户让他们帮我确认。反复犯同样的错误（如 cliclick 语法）会让用户很 frustration。用户使用 DeepSeek V4 Pro，声称有视觉能力。",
+      "不要发送截图让用户帮你验证操作结果——用户期望你自己验证每一步。遇到无法自己看图的情况（如视觉模型不支持），优先用 OCR/AX tree/JS 等方式自行验证，截图分享只作为最后手段且要问具体问题而非\"你看看对不对\"。",
+      "用户是 AI 产品经理，关注领域：AI Agent/Skill 生态、商业化路径、AI 多模态、AI 生成 3D 及 3D 全链路、AI Coding。沟通风格：结论先行。思考框架：以终为始 + 第一性原理 + 脉络关联性分析。",
+      "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。"
+    ],
+    "environment": [
+      "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。"
+    ],
+    "total": 7
+  },
+  "sessions": {
+    "total": 1,
+    "sessions": [
+      {
+        "start": "",
+        "title": "agent:main:weixin:dm:o9cq804eLuxio2aT9sOxrCzraHVE@im.wechat"
+      }
+    ],
+    "activity_days": {}
+  },
+  "cron": {
+    "total": 0,
+    "jobs": []
+  },
+  "versions": {
+    "current": "v2026.5.16",
+    "tags": [
+      "v2026.5.16",
+      "v2026.5.7",
+      "v2026.4.30",
+      "v2026.4.23",
+      "v2026.4.16",
+      "v2026.4.13",
+      "v2026.4.8",
+      "v2026.4.3",
+      "v2026.3.30",
+      "v2026.3.28",
+      "v2026.3.23",
+      "v2026.3.17",
+      "v2026.3.12"
+    ],
+    "recent_commits": [
+      "8191f663d feat(mcp-oauth): accept 'skip' at paste prompt to bypass auth without disabling server (#32069) (2026-05-25 05:37:30 -0700)",
+      "bdf369670 docs(mcp-oauth): document paste-back flow and SSH options for remote MCP OAuth (#32067) (2026-05-25 05:35:47 -0700)",
+      "1c3c36428 feat(cli): show live background terminal-process count in status bar (#32061) (2026-05-25 05:35:02 -0700)",
+      "2b16de0ec chore(release): map adam91holt for PR #31984 salvage (2026-05-25 04:50:41 -0700)",
+      "8601c4d44 fix(codex): add time-to-first-byte watchdog for stalled Codex streams (2026-05-25 09:09:22 +0000)",
+      "a989a79c0 fix(gateway): allow native delivery of freshly-produced agent files (#32060) (2026-05-25 05:34:31 -0700)",
+      "0ff7c09e2 feat(mcp-oauth): stdin paste-back fallback for headless OAuth flow (#32053) (2026-05-25 05:20:05 -0700)",
+      "e9119e0eb chore(release): map dsr-restyn + WuKongAI-CMU + codeblackhole1024 for S04 cluster (2026-05-25 05:15:19 -0700)",
+      "bd2756dd2 fix(update): reject symlink members in update ZIP (2026-05-25 05:15:19 -0700)",
+      "5f20322d2 fix(tts): reject '..' traversal in output_path (2026-05-25 05:15:19 -0700)"
+    ]
+  }
+}
