@@ -1,14 +1,14 @@
 {
   "skills": {
-    "total": 79,
+    "total": 81,
     "categories": {
       "creative": 20,
       "software-development": 11,
-      "productivity": 9,
+      "productivity": 10,
       "github": 6,
+      "media": 6,
       "apple": 5,
       "autonomous-ai-agents": 5,
-      "media": 5,
       "research": 5,
       "devops": 3,
       "gaming": 2,
@@ -31,8 +31,8 @@
       {
         "name": "macos-computer-use",
         "category": "apple",
-        "created": "2026-05-23T16:08:14.360349+00:00",
-        "modified": "2026-05-23T16:08:14.360817+00:00"
+        "created": "2026-05-25T15:05:20.232655+00:00",
+        "modified": "2026-05-25T15:05:20.232815+00:00"
       },
       {
         "name": "imessage",
@@ -305,6 +305,12 @@
         "modified": "2026-05-20T09:03:34.024600+00:00"
       },
       {
+        "name": "chatgpt-image-generation",
+        "category": "media",
+        "created": "2026-05-25T15:12:25.463862+00:00",
+        "modified": "2026-05-25T15:12:25.464102+00:00"
+      },
+      {
         "name": "songsee",
         "category": "media",
         "created": "2026-05-20T09:03:34.024509+00:00",
@@ -369,6 +375,12 @@
         "category": "productivity",
         "created": "2026-05-20T09:03:34.031007+00:00",
         "modified": "2026-05-20T09:03:34.031007+00:00"
+      },
+      {
+        "name": "automated-dashboard",
+        "category": "productivity",
+        "created": "2026-05-25T13:24:51.494245+00:00",
+        "modified": "2026-05-25T13:24:51.494789+00:00"
       },
       {
         "name": "google-workspace",
@@ -578,8 +590,10 @@
         "debugging-hermes-tui-commands",
         "subagent-driven-development"
       ],
-      "2026-05-23": [
-        "macos-computer-use"
+      "2026-05-25": [
+        "macos-computer-use",
+        "chatgpt-image-generation",
+        "automated-dashboard"
       ]
     }
   },
@@ -593,9 +607,10 @@
       "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。"
     ],
     "environment": [
-      "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。"
+      "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。",
+      "Skill 统一放在 /Users/jiangsheng/VibeCoding/hermes-agent/skills/，不要放到其他路径（包括 ~/.hermes/skills/）。用户需要集中管理，防止找不到。"
     ],
-    "total": 7
+    "total": 8
   },
   "sessions": {
     "total": 1,
