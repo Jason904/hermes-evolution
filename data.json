@@ -1,12 +1,12 @@
 {
   "skills": {
-    "total": 82,
+    "total": 84,
     "categories": {
       "creative": 20,
       "software-development": 12,
-      "productivity": 10,
+      "productivity": 11,
+      "media": 7,
       "github": 6,
-      "media": 6,
       "apple": 5,
       "autonomous-ai-agents": 5,
       "research": 5,
@@ -25,499 +25,512 @@
       {
         "name": "apple-reminders",
         "category": "apple",
-        "created": "2026-05-20T09:03:33.995490+00:00",
+        "created": "2026-05-20T09:03:33.995462+00:00",
         "modified": "2026-05-20T09:03:33.995490+00:00"
       },
       {
         "name": "macos-computer-use",
         "category": "apple",
-        "created": "2026-05-25T15:05:20.232655+00:00",
-        "modified": "2026-05-25T15:05:20.232815+00:00"
+        "created": "2026-05-20T09:03:33.995687+00:00",
+        "modified": "2026-05-20T09:03:33.995739+00:00"
       },
       {
         "name": "imessage",
         "category": "apple",
-        "created": "2026-05-20T09:03:33.995640+00:00",
+        "created": "2026-05-20T09:03:33.995610+00:00",
         "modified": "2026-05-20T09:03:33.995640+00:00"
       },
       {
         "name": "findmy",
         "category": "apple",
-        "created": "2026-05-20T09:03:33.995563+00:00",
+        "created": "2026-05-20T09:03:33.995534+00:00",
         "modified": "2026-05-20T09:03:33.995563+00:00"
       },
       {
         "name": "apple-notes",
         "category": "apple",
-        "created": "2026-05-20T09:03:33.995418+00:00",
+        "created": "2026-05-20T09:03:33.995388+00:00",
         "modified": "2026-05-20T09:03:33.995418+00:00"
       },
       {
         "name": "claude-code",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-20T09:03:33.996103+00:00",
+        "created": "2026-05-20T09:03:33.996034+00:00",
         "modified": "2026-05-20T09:03:33.996103+00:00"
       },
       {
         "name": "kanban-codex-lane",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-20T09:03:33.996435+00:00",
+        "created": "2026-05-20T09:03:33.996389+00:00",
         "modified": "2026-05-20T09:03:33.996435+00:00"
       },
       {
         "name": "codex",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-20T09:03:33.996197+00:00",
+        "created": "2026-05-20T09:03:33.996153+00:00",
         "modified": "2026-05-20T09:03:33.996197+00:00"
       },
       {
         "name": "hermes-agent",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-25T12:43:11.216237+00:00",
+        "created": "2026-05-25T12:43:11.216120+00:00",
         "modified": "2026-05-25T12:43:11.216237+00:00"
       },
       {
         "name": "opencode",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-20T09:03:33.996613+00:00",
+        "created": "2026-05-20T09:03:33.996563+00:00",
         "modified": "2026-05-20T09:03:33.996613+00:00"
       },
       {
         "name": "creative-ideation",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.008052+00:00",
+        "created": "2026-05-20T09:03:34.007999+00:00",
         "modified": "2026-05-20T09:03:34.008052+00:00"
       },
       {
         "name": "comfyui",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.005479+00:00",
+        "created": "2026-05-20T09:03:34.005418+00:00",
         "modified": "2026-05-20T09:03:34.005479+00:00"
       },
       {
         "name": "baoyu-infographic",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.002865+00:00",
+        "created": "2026-05-20T09:03:34.002799+00:00",
         "modified": "2026-05-20T09:03:34.002865+00:00"
       },
       {
         "name": "songwriting-and-ai-music",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.018291+00:00",
+        "created": "2026-05-20T09:03:34.018227+00:00",
         "modified": "2026-05-20T09:03:34.018291+00:00"
       },
       {
         "name": "ascii-video",
         "category": "creative",
-        "created": "2026-05-20T09:03:33.997168+00:00",
+        "created": "2026-05-20T09:03:33.997116+00:00",
         "modified": "2026-05-20T09:03:33.997168+00:00"
       },
       {
         "name": "touchdesigner-mcp",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.018384+00:00",
+        "created": "2026-05-20T09:03:34.018335+00:00",
         "modified": "2026-05-20T09:03:34.018384+00:00"
       },
       {
         "name": "excalidraw",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.008424+00:00",
+        "created": "2026-05-20T09:03:34.008374+00:00",
         "modified": "2026-05-20T09:03:34.008424+00:00"
       },
       {
         "name": "claude-design",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.005367+00:00",
+        "created": "2026-05-20T09:03:34.005312+00:00",
         "modified": "2026-05-20T09:03:34.005367+00:00"
       },
       {
         "name": "ascii-art",
         "category": "creative",
-        "created": "2026-05-20T09:03:33.996986+00:00",
+        "created": "2026-05-20T09:03:33.996917+00:00",
         "modified": "2026-05-20T09:03:33.996986+00:00"
       },
       {
         "name": "design-md",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.008243+00:00",
+        "created": "2026-05-20T09:03:34.008195+00:00",
         "modified": "2026-05-20T09:03:34.008243+00:00"
       },
       {
         "name": "baoyu-comic",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.000667+00:00",
+        "created": "2026-05-20T09:03:34.000614+00:00",
         "modified": "2026-05-20T09:03:34.000667+00:00"
       },
       {
         "name": "popular-web-designs",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.012389+00:00",
+        "created": "2026-05-20T09:03:34.012199+00:00",
         "modified": "2026-05-20T09:03:34.012389+00:00"
       },
       {
         "name": "manim-video",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.009056+00:00",
+        "created": "2026-05-20T09:03:34.008987+00:00",
         "modified": "2026-05-20T09:03:34.009056+00:00"
       },
       {
         "name": "pixel-art",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.011796+00:00",
+        "created": "2026-05-20T09:03:34.011745+00:00",
         "modified": "2026-05-20T09:03:34.011796+00:00"
       },
       {
         "name": "pretext",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.017757+00:00",
+        "created": "2026-05-20T09:03:34.017706+00:00",
         "modified": "2026-05-20T09:03:34.017757+00:00"
       },
       {
         "name": "baoyu-article-illustrator",
         "category": "creative",
-        "created": "2026-05-20T09:03:33.998405+00:00",
+        "created": "2026-05-20T09:03:33.998342+00:00",
         "modified": "2026-05-20T09:03:33.998405+00:00"
       },
       {
         "name": "humanizer",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.008880+00:00",
+        "created": "2026-05-20T09:03:34.008813+00:00",
         "modified": "2026-05-20T09:03:34.008880+00:00"
       },
       {
         "name": "p5js",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.010291+00:00",
+        "created": "2026-05-20T09:03:34.010228+00:00",
         "modified": "2026-05-20T09:03:34.010291+00:00"
       },
       {
         "name": "architecture-diagram",
         "category": "creative",
-        "created": "2026-05-20T09:03:33.996778+00:00",
+        "created": "2026-05-20T09:03:33.996730+00:00",
         "modified": "2026-05-20T09:03:33.996778+00:00"
       },
       {
         "name": "sketch",
         "category": "creative",
-        "created": "2026-05-20T09:03:34.018183+00:00",
+        "created": "2026-05-20T09:03:34.018120+00:00",
         "modified": "2026-05-20T09:03:34.018183+00:00"
       },
       {
         "name": "jupyter-live-kernel",
         "category": "data-science",
-        "created": "2026-05-20T09:03:34.020285+00:00",
+        "created": "2026-05-20T09:03:34.020236+00:00",
         "modified": "2026-05-20T09:03:34.020285+00:00"
       },
       {
         "name": "kanban-worker",
         "category": "devops",
-        "created": "2026-05-20T09:03:34.020525+00:00",
+        "created": "2026-05-20T09:03:34.020453+00:00",
         "modified": "2026-05-20T09:03:34.020525+00:00"
       },
       {
         "name": "webhook-subscriptions",
         "category": "devops",
-        "created": "2026-05-20T09:03:34.020613+00:00",
+        "created": "2026-05-20T09:03:34.020569+00:00",
         "modified": "2026-05-20T09:03:34.020613+00:00"
       },
       {
         "name": "kanban-orchestrator",
         "category": "devops",
-        "created": "2026-05-20T09:03:34.020408+00:00",
+        "created": "2026-05-20T09:03:34.020356+00:00",
         "modified": "2026-05-20T09:03:34.020408+00:00"
       },
       {
         "name": "himalaya",
         "category": "email",
-        "created": "2026-05-20T09:03:34.021145+00:00",
+        "created": "2026-05-20T09:03:34.021101+00:00",
         "modified": "2026-05-20T09:03:34.021145+00:00"
       },
       {
         "name": "minecraft-modpack-server",
         "category": "gaming",
-        "created": "2026-05-20T09:03:34.021467+00:00",
+        "created": "2026-05-20T09:03:34.021413+00:00",
         "modified": "2026-05-20T09:03:34.021467+00:00"
       },
       {
         "name": "pokemon-player",
         "category": "gaming",
-        "created": "2026-05-20T09:03:34.021579+00:00",
+        "created": "2026-05-20T09:03:34.021517+00:00",
         "modified": "2026-05-20T09:03:34.021579+00:00"
       },
       {
         "name": "github-auth",
         "category": "github",
-        "created": "2026-05-20T09:03:34.021899+00:00",
+        "created": "2026-05-20T09:03:34.021852+00:00",
         "modified": "2026-05-20T09:03:34.021899+00:00"
       },
       {
         "name": "github-repo-management",
         "category": "github",
-        "created": "2026-05-20T09:03:34.022877+00:00",
+        "created": "2026-05-20T09:03:34.022835+00:00",
         "modified": "2026-05-20T09:03:34.022877+00:00"
       },
       {
         "name": "github-pr-workflow",
         "category": "github",
-        "created": "2026-05-20T09:03:34.022512+00:00",
+        "created": "2026-05-20T09:03:34.022448+00:00",
         "modified": "2026-05-20T09:03:34.022512+00:00"
       },
       {
         "name": "github-code-review",
         "category": "github",
-        "created": "2026-05-20T09:03:34.022074+00:00",
+        "created": "2026-05-20T09:03:34.022021+00:00",
         "modified": "2026-05-20T09:03:34.022074+00:00"
       },
       {
         "name": "github-issues",
         "category": "github",
-        "created": "2026-05-20T09:03:34.022270+00:00",
+        "created": "2026-05-20T09:03:34.022209+00:00",
         "modified": "2026-05-20T09:03:34.022270+00:00"
       },
       {
         "name": "codebase-inspection",
         "category": "github",
-        "created": "2026-05-20T09:03:34.021807+00:00",
+        "created": "2026-05-20T09:03:34.021776+00:00",
         "modified": "2026-05-20T09:03:34.021807+00:00"
       },
       {
         "name": "native-mcp",
         "category": "mcp",
-        "created": "2026-05-20T09:03:34.024204+00:00",
+        "created": "2026-05-20T09:03:34.024161+00:00",
         "modified": "2026-05-20T09:03:34.024204+00:00"
       },
       {
         "name": "youtube-content",
         "category": "media",
-        "created": "2026-05-20T09:03:34.024676+00:00",
+        "created": "2026-05-20T09:03:34.024645+00:00",
         "modified": "2026-05-20T09:03:34.024676+00:00"
       },
       {
         "name": "heartmula",
         "category": "media",
-        "created": "2026-05-20T09:03:34.024440+00:00",
+        "created": "2026-05-20T09:03:34.024392+00:00",
         "modified": "2026-05-20T09:03:34.024440+00:00"
       },
       {
         "name": "spotify",
         "category": "media",
-        "created": "2026-05-20T09:03:34.024600+00:00",
+        "created": "2026-05-20T09:03:34.024554+00:00",
         "modified": "2026-05-20T09:03:34.024600+00:00"
       },
       {
-        "name": "chatgpt-image-generation",
+        "name": "media-asset-management-v2",
         "category": "media",
-        "created": "2026-05-25T15:12:25.463862+00:00",
-        "modified": "2026-05-25T15:12:25.464102+00:00"
+        "created": "2026-05-27T07:31:03.361223+00:00",
+        "modified": "2026-05-27T07:31:03.361390+00:00"
+      },
+      {
+        "name": "media-asset-management",
+        "category": "media",
+        "created": "2026-05-27T07:00:09.213177+00:00",
+        "modified": "2026-05-27T08:51:30.788361+00:00"
       },
       {
         "name": "songsee",
         "category": "media",
-        "created": "2026-05-20T09:03:34.024509+00:00",
+        "created": "2026-05-20T09:03:34.024482+00:00",
         "modified": "2026-05-20T09:03:34.024509+00:00"
       },
       {
         "name": "gif-search",
         "category": "media",
-        "created": "2026-05-20T09:03:34.024346+00:00",
+        "created": "2026-05-20T09:03:34.024318+00:00",
         "modified": "2026-05-20T09:03:34.024346+00:00"
       },
       {
         "name": "huggingface-hub",
         "category": "mlops",
-        "created": "2026-05-20T09:03:34.025862+00:00",
+        "created": "2026-05-20T09:03:34.025824+00:00",
         "modified": "2026-05-20T09:03:34.025862+00:00"
       },
       {
         "name": "obsidian",
         "category": "note-taking",
-        "created": "2026-05-20T09:03:34.028966+00:00",
+        "created": "2026-05-20T09:03:34.028939+00:00",
         "modified": "2026-05-20T09:03:34.028966+00:00"
       },
       {
         "name": "nano-pdf",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.030359+00:00",
+        "created": "2026-05-20T09:03:34.030325+00:00",
         "modified": "2026-05-20T09:03:34.030359+00:00"
       },
       {
         "name": "maps",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.030140+00:00",
+        "created": "2026-05-20T09:03:34.030091+00:00",
         "modified": "2026-05-20T09:03:34.030140+00:00"
       },
       {
         "name": "teams-meeting-pipeline",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.035741+00:00",
+        "created": "2026-05-20T09:03:34.035692+00:00",
         "modified": "2026-05-20T09:03:34.035741+00:00"
       },
       {
         "name": "linear",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.029942+00:00",
+        "created": "2026-05-20T09:03:34.029895+00:00",
         "modified": "2026-05-20T09:03:34.029942+00:00"
       },
       {
         "name": "notion",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.030470+00:00",
+        "created": "2026-05-20T09:03:34.030410+00:00",
         "modified": "2026-05-20T09:03:34.030470+00:00"
       },
       {
         "name": "airtable",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.029143+00:00",
+        "created": "2026-05-20T09:03:34.029078+00:00",
         "modified": "2026-05-20T09:03:34.029143+00:00"
+      },
+      {
+        "name": "notebooklm",
+        "category": "productivity",
+        "created": "2026-05-27T13:35:01.974187+00:00",
+        "modified": "2026-05-27T13:35:01.974475+00:00"
+      },
+      {
+        "name": "media-asset-management",
+        "category": "productivity",
+        "created": "2026-05-27T13:20:44.546845+00:00",
+        "modified": "2026-05-27T13:20:44.547031+00:00"
       },
       {
         "name": "powerpoint",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.031007+00:00",
+        "created": "2026-05-20T09:03:34.030939+00:00",
         "modified": "2026-05-20T09:03:34.031007+00:00"
-      },
-      {
-        "name": "automated-dashboard",
-        "category": "productivity",
-        "created": "2026-05-25T13:24:51.494245+00:00",
-        "modified": "2026-05-25T13:24:51.494789+00:00"
       },
       {
         "name": "google-workspace",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.029233+00:00",
+        "created": "2026-05-20T09:03:34.029188+00:00",
         "modified": "2026-05-20T09:03:34.029233+00:00"
       },
       {
         "name": "ocr-and-documents",
         "category": "productivity",
-        "created": "2026-05-20T09:03:34.030694+00:00",
+        "created": "2026-05-20T09:03:34.030651+00:00",
         "modified": "2026-05-20T09:03:34.030694+00:00"
       },
       {
         "name": "godmode",
         "category": "red-teaming",
-        "created": "2026-05-20T09:03:34.035871+00:00",
+        "created": "2026-05-20T09:03:34.035820+00:00",
         "modified": "2026-05-20T09:03:34.035871+00:00"
       },
       {
         "name": "blogwatcher",
         "category": "research",
-        "created": "2026-05-20T09:03:34.039277+00:00",
+        "created": "2026-05-20T09:03:34.039227+00:00",
         "modified": "2026-05-20T09:03:34.039277+00:00"
       },
       {
         "name": "polymarket",
         "category": "research",
-        "created": "2026-05-20T09:03:34.039489+00:00",
+        "created": "2026-05-20T09:03:34.039448+00:00",
         "modified": "2026-05-20T09:03:34.039489+00:00"
       },
       {
         "name": "llm-wiki",
         "category": "research",
-        "created": "2026-05-20T09:03:34.039387+00:00",
+        "created": "2026-05-20T09:03:34.039329+00:00",
         "modified": "2026-05-20T09:03:34.039387+00:00"
       },
       {
         "name": "arxiv",
         "category": "research",
-        "created": "2026-05-20T09:03:34.039037+00:00",
+        "created": "2026-05-20T09:03:34.038959+00:00",
         "modified": "2026-05-20T09:03:34.039037+00:00"
       },
       {
         "name": "research-paper-writing",
         "category": "research",
-        "created": "2026-05-20T09:03:34.040130+00:00",
+        "created": "2026-05-20T09:03:34.039760+00:00",
         "modified": "2026-05-20T09:03:34.040130+00:00"
       },
       {
         "name": "openhue",
         "category": "smart-home",
-        "created": "2026-05-20T09:03:34.047455+00:00",
+        "created": "2026-05-20T09:03:34.047425+00:00",
         "modified": "2026-05-20T09:03:34.047455+00:00"
       },
       {
         "name": "xurl",
         "category": "social-media",
-        "created": "2026-05-20T09:03:34.047624+00:00",
+        "created": "2026-05-20T09:03:34.047570+00:00",
         "modified": "2026-05-20T09:03:34.047624+00:00"
       },
       {
         "name": "hermes-s6-container-supervision",
         "category": "software-development",
-        "created": "2026-05-25T12:43:11.216361+00:00",
+        "created": "2026-05-25T12:43:11.216305+00:00",
         "modified": "2026-05-25T12:43:11.216361+00:00"
       },
       {
         "name": "test-driven-development",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.049267+00:00",
+        "created": "2026-05-20T09:03:34.049200+00:00",
         "modified": "2026-05-20T09:03:34.049267+00:00"
       },
       {
         "name": "systematic-debugging",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.049148+00:00",
+        "created": "2026-05-20T09:03:34.048883+00:00",
         "modified": "2026-05-20T09:03:34.049148+00:00"
       },
       {
         "name": "plan",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048107+00:00",
+        "created": "2026-05-20T09:03:34.048058+00:00",
         "modified": "2026-05-20T09:03:34.048107+00:00"
       },
       {
         "name": "hermes-agent-skill-authoring",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.047868+00:00",
+        "created": "2026-05-20T09:03:34.047818+00:00",
         "modified": "2026-05-20T09:03:34.047868+00:00"
       },
       {
         "name": "python-debugpy",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048252+00:00",
+        "created": "2026-05-20T09:03:34.048189+00:00",
         "modified": "2026-05-20T09:03:34.048252+00:00"
       },
       {
         "name": "writing-plans",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.049361+00:00",
+        "created": "2026-05-20T09:03:34.049314+00:00",
         "modified": "2026-05-20T09:03:34.049361+00:00"
       },
       {
         "name": "spike",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048522+00:00",
+        "created": "2026-05-20T09:03:34.048448+00:00",
         "modified": "2026-05-20T09:03:34.048522+00:00"
       },
       {
         "name": "requesting-code-review",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048390+00:00",
+        "created": "2026-05-20T09:03:34.048317+00:00",
         "modified": "2026-05-20T09:03:34.048390+00:00"
       },
       {
         "name": "node-inspect-debugger",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048003+00:00",
+        "created": "2026-05-20T09:03:34.047922+00:00",
         "modified": "2026-05-20T09:03:34.048003+00:00"
       },
       {
         "name": "debugging-hermes-tui-commands",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.047762+00:00",
+        "created": "2026-05-20T09:03:34.047711+00:00",
         "modified": "2026-05-20T09:03:34.047762+00:00"
       },
       {
         "name": "subagent-driven-development",
         "category": "software-development",
-        "created": "2026-05-20T09:03:34.048656+00:00",
+        "created": "2026-05-20T09:03:34.048585+00:00",
         "modified": "2026-05-20T09:03:34.048656+00:00"
       }
     ],
     "timeline": {
       "2026-05-20": [
         "apple-reminders",
+        "macos-computer-use",
         "imessage",
         "findmy",
         "apple-notes",
@@ -596,17 +609,20 @@
         "subagent-driven-development"
       ],
       "2026-05-25": [
-        "macos-computer-use",
         "hermes-agent",
-        "chatgpt-image-generation",
-        "automated-dashboard",
         "hermes-s6-container-supervision"
+      ],
+      "2026-05-27": [
+        "media-asset-management-v2",
+        "media-asset-management",
+        "notebooklm",
+        "media-asset-management"
       ]
     }
   },
   "memory": {
     "user": [
-      "用户偏好中文回复。使用 NotebookLM 时优先直接用 NotebookLM 内置功能（infographic/video/audio 生成），而非外部工具或手动工作流。喜欢生成可视化内容（信息图、视频）并直接发送媒体文件。工作风格高效直接——能跳过的确认步骤就跳过，但真正不确定的地方一定要问。",
+      "用户是 AI 产品经理，CV 方向背景（2020年起），技术型 PM。关注 AI Agent/Skill 生态、多模态、3D 生成、AI Coding。思考框架：以终为始 + 第一性原理 + 脉络关联性。沟通偏好：中文回复，结论先行，高效直接——能自行验证的不发截图让用户确认。所有技能和媒体资源需集中管理，不要散落各处。文件管理偏好自动分类维护，不手动操心。",
       "用户期望 agent 自行验证操作结果，不要反复发截图让用户帮忙确认。当视觉工具不可用时，应先用 OCR（tesseract）、AX tree、JS 注入等方式自行检查，只在所有方法都失败时才找用户。偏好高效直接——能自行验证就自行验证。",
       "用户期望我先自己验证结果（截图/OCR/视觉分析），而不是把截图发给用户让他们帮我确认。反复犯同样的错误（如 cliclick 语法）会让用户很 frustration。用户使用 DeepSeek V4 Pro，声称有视觉能力。",
       "不要发送截图让用户帮你验证操作结果——用户期望你自己验证每一步。遇到无法自己看图的情况（如视觉模型不支持），优先用 OCR/AX tree/JS 等方式自行验证，截图分享只作为最后手段且要问具体问题而非\"你看看对不对\"。",
@@ -615,9 +631,16 @@
     ],
     "environment": [
       "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。",
-      "Skill 统一放在 /Users/jiangsheng/VibeCoding/hermes-agent/skills/，不要放到其他路径（包括 ~/.hermes/skills/）。用户需要集中管理，防止找不到。"
+      "Skill 统一在 /Users/jiangsheng/VibeCoding/hermes-agent/skills/，~/.hermes/skills 已软链接指向此处。若 symlink 断裂（Hermes 更新可能重建目录），重新执行：rm -rf ~/.hermes/skills && ln -s /Users/jiangsheng/VibeCoding/hermes-agent/skills ~/.hermes/skills。",
+      "Hermes WebUI 中 MEDIA: 标签只能发送 workspace（/Users/jiangsheng/workspace/）内物理存在的文件。软链接不生效——即使 workspace/media 是到其他目录的 symlink，也无法通过 MEDIA 显示。所有需发送的媒体文件必须物理存放在 workspace 目录下。",
+      "所有媒体资源统一输出到 /Users/jiangsheng/workspace/media_genernation_asset/（详见 media-asset-management skill）。子目录：gpt-images/、infographics/、video/、audio/、slide-decks/、screenshots/。新增媒体类型自动创建对应子目录。",
+      "ChatGPT 生图：cd /Users/jiangsheng/VibeCoding/hermes-agent/skills/chatgpt-image-generation && bash scripts/run.sh generate --prompt \"...\"。默认输出到 workspace/media_genernation_asset/gpt-images/（run.sh 内 DEFAULT_IMAGE_OUTPUT_DIR 已指向此路径），无需 --image-output-dir。ChatGPT 2026 版 DOM 选择器已适配：[class*=\"agent-turn\"] 替代 article。skill 支持 run-anchor 防旧图、每轮新对话、continue 重试 3 次。node_modules 缺失需 npm install。",
+      "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
+      "ChatGPT skill 的 `classifyPageState` 仍保留短关键词（`'额度'`、`'达到上限'`、`'稍后再试'`、`'rate limit'` 等）在第394-406行，而 `detectImageLimit` 已修复。侧边栏历史标题\"Codex 额度触顶问题\"会命中 `classifyPageState` 的 `'额度'`。修复：将所有短关键词替换为完整短语（如 `'you have reached the usage limit'`、`'图像生成频率已达上限'` 等）。5月27日已修复。",
+      "修改 skill 代码前必须完整追踪调用链。ChatGPT skill 和 NanoBanana skill 虽然都是 CDP 生图，但内部架构不同——NanoBanana 的 downloadBestCandidate 内置了 publishImages，会预先输出到 workspace；ChatGPT 的不内置。不能假设两个 skill 内部流程一致就通用修改。5月27日因未发现 NanoBanana 双发布机制导致误删 workspace 文件。",
+      "所有浏览器自动化 skill（ChatGPT、NanoBanana 等）的页面状态检测，需要特别考虑侧边栏/导航栏/历史标题等非主内容区域的文案干扰。关键词匹配要做两层防御：1）优先匹配完整短语而非短关键词；2）触发后必须二次验证——不要直接采信，通过 CDP/JS 注入检查主内容区域（排除侧边栏）是否真有对应文案。用户不希望此类误判再次发生。"
     ],
-    "total": 8
+    "total": 15
   },
   "sessions": {
     "total": 1,
