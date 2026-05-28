@@ -1,16 +1,16 @@
 {
   "skills": {
-    "total": 84,
+    "total": 86,
     "categories": {
       "creative": 20,
-      "software-development": 12,
+      "software-development": 13,
       "productivity": 11,
       "media": 7,
       "github": 6,
       "apple": 5,
       "autonomous-ai-agents": 5,
       "research": 5,
-      "devops": 3,
+      "devops": 4,
       "gaming": 2,
       "data-science": 1,
       "email": 1,
@@ -31,8 +31,8 @@
       {
         "name": "macos-computer-use",
         "category": "apple",
-        "created": "2026-05-20T09:03:33.995687+00:00",
-        "modified": "2026-05-20T09:03:33.995739+00:00"
+        "created": "2026-05-28T15:31:57.027372+00:00",
+        "modified": "2026-05-28T15:31:57.027677+00:00"
       },
       {
         "name": "imessage",
@@ -55,8 +55,8 @@
       {
         "name": "claude-code",
         "category": "autonomous-ai-agents",
-        "created": "2026-05-20T09:03:33.996034+00:00",
-        "modified": "2026-05-20T09:03:33.996103+00:00"
+        "created": "2026-05-28T15:50:38.647014+00:00",
+        "modified": "2026-05-28T15:50:38.647273+00:00"
       },
       {
         "name": "kanban-codex-lane",
@@ -225,6 +225,12 @@
         "category": "devops",
         "created": "2026-05-20T09:03:34.020356+00:00",
         "modified": "2026-05-20T09:03:34.020408+00:00"
+      },
+      {
+        "name": "hermes-provider-configuration",
+        "category": "devops",
+        "created": "2026-05-28T04:00:22.599825+00:00",
+        "modified": "2026-05-28T04:00:22.600151+00:00"
       },
       {
         "name": "himalaya",
@@ -455,6 +461,12 @@
         "modified": "2026-05-20T09:03:34.047624+00:00"
       },
       {
+        "name": "efficient-task-execution",
+        "category": "software-development",
+        "created": "2026-05-28T15:39:37.138858+00:00",
+        "modified": "2026-05-28T15:54:46.678234+00:00"
+      },
+      {
         "name": "hermes-s6-container-supervision",
         "category": "software-development",
         "created": "2026-05-25T12:43:11.216305+00:00",
@@ -530,11 +542,9 @@
     "timeline": {
       "2026-05-20": [
         "apple-reminders",
-        "macos-computer-use",
         "imessage",
         "findmy",
         "apple-notes",
-        "claude-code",
         "kanban-codex-lane",
         "codex",
         "opencode",
@@ -617,6 +627,12 @@
         "media-asset-management",
         "notebooklm",
         "media-asset-management"
+      ],
+      "2026-05-28": [
+        "macos-computer-use",
+        "claude-code",
+        "hermes-provider-configuration",
+        "efficient-task-execution"
       ]
     }
   },
@@ -624,23 +640,26 @@
     "user": [
       "用户是 AI 产品经理，CV 方向背景（2020年起），技术型 PM。关注 AI Agent/Skill 生态、多模态、3D 生成、AI Coding。思考框架：以终为始 + 第一性原理 + 脉络关联性。沟通偏好：中文回复，结论先行，高效直接——能自行验证的不发截图让用户确认。所有技能和媒体资源需集中管理，不要散落各处。文件管理偏好自动分类维护，不手动操心。",
       "用户期望 agent 自行验证操作结果，不要反复发截图让用户帮忙确认。当视觉工具不可用时，应先用 OCR（tesseract）、AX tree、JS 注入等方式自行检查，只在所有方法都失败时才找用户。偏好高效直接——能自行验证就自行验证。",
-      "用户期望我先自己验证结果（截图/OCR/视觉分析），而不是把截图发给用户让他们帮我确认。反复犯同样的错误（如 cliclick 语法）会让用户很 frustration。用户使用 DeepSeek V4 Pro，声称有视觉能力。",
+      "用户期望我先自己验证结果，不要反复发截图让用户帮忙确认。token 消耗敏感：computer_use capture（2000-4000 input tokens）必须事先提醒并征求同意；terminal/osascript/click/type(key) 等低成本操作（<500 tokens）可直接执行无需报批。从微信发来的指令同样遵循此规则。",
       "不要发送截图让用户帮你验证操作结果——用户期望你自己验证每一步。遇到无法自己看图的情况（如视觉模型不支持），优先用 OCR/AX tree/JS 等方式自行验证，截图分享只作为最后手段且要问具体问题而非\"你看看对不对\"。",
       "用户是 AI 产品经理，关注领域：AI Agent/Skill 生态、商业化路径、AI 多模态、AI 生成 3D 及 3D 全链路、AI Coding。沟通风格：结论先行。思考框架：以终为始 + 第一性原理 + 脉络关联性分析。",
-      "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。"
+      "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。",
+      "Token 和成本意识极强，所有操作默认先想最便宜的方案。已创建 efficient-task-execution skill 记录完整的决策框架、工具成本表和判断指南。超过 2000 tokens 的操作先提醒再执行。",
+      "接到任务先想最适合的方案权衡成本和可行性并选性价比最优的。小操作直接干不废话；用户不了解情况时提供选项帮判断；可能超2000 tokens先告知替代方案。核心：你不知道的我补全信息让你能决策，你知道或显而易见的我直接搞定。要配得上「优秀的人」的评价。efficient-task-execution skill 有完整框架。",
+      "不需每次都展示思考或方案清单。小操作直接干不废话；用户不了解情况时补全信息帮决策；可能超2000 tokens时简要说明权衡和推荐方案，不要一股脑全列出来。用判断力决定什么时候该展示、展示多少。详见 efficient-task-execution skill。"
     ],
     "environment": [
       "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。",
       "Skill 统一在 /Users/jiangsheng/VibeCoding/hermes-agent/skills/，~/.hermes/skills 已软链接指向此处。若 symlink 断裂（Hermes 更新可能重建目录），重新执行：rm -rf ~/.hermes/skills && ln -s /Users/jiangsheng/VibeCoding/hermes-agent/skills ~/.hermes/skills。",
       "Hermes WebUI 中 MEDIA: 标签只能发送 workspace（/Users/jiangsheng/workspace/）内物理存在的文件。软链接不生效——即使 workspace/media 是到其他目录的 symlink，也无法通过 MEDIA 显示。所有需发送的媒体文件必须物理存放在 workspace 目录下。",
-      "所有媒体资源统一输出到 /Users/jiangsheng/workspace/media_genernation_asset/（详见 media-asset-management skill）。子目录：gpt-images/、infographics/、video/、audio/、slide-decks/、screenshots/。新增媒体类型自动创建对应子目录。",
+      "所有媒体资源统一输出到 /Users/jiangsheng/workspace/media_genernation_asset/，子目录按类型自动创建。详见 media-asset-management skill。",
       "ChatGPT 生图：cd /Users/jiangsheng/VibeCoding/hermes-agent/skills/chatgpt-image-generation && bash scripts/run.sh generate --prompt \"...\"。默认输出到 workspace/media_genernation_asset/gpt-images/（run.sh 内 DEFAULT_IMAGE_OUTPUT_DIR 已指向此路径），无需 --image-output-dir。ChatGPT 2026 版 DOM 选择器已适配：[class*=\"agent-turn\"] 替代 article。skill 支持 run-anchor 防旧图、每轮新对话、continue 重试 3 次。node_modules 缺失需 npm install。",
       "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
-      "ChatGPT skill 的 `classifyPageState` 仍保留短关键词（`'额度'`、`'达到上限'`、`'稍后再试'`、`'rate limit'` 等）在第394-406行，而 `detectImageLimit` 已修复。侧边栏历史标题\"Codex 额度触顶问题\"会命中 `classifyPageState` 的 `'额度'`。修复：将所有短关键词替换为完整短语（如 `'you have reached the usage limit'`、`'图像生成频率已达上限'` 等）。5月27日已修复。",
-      "修改 skill 代码前必须完整追踪调用链。ChatGPT skill 和 NanoBanana skill 虽然都是 CDP 生图，但内部架构不同——NanoBanana 的 downloadBestCandidate 内置了 publishImages，会预先输出到 workspace；ChatGPT 的不内置。不能假设两个 skill 内部流程一致就通用修改。5月27日因未发现 NanoBanana 双发布机制导致误删 workspace 文件。",
-      "所有浏览器自动化 skill（ChatGPT、NanoBanana 等）的页面状态检测，需要特别考虑侧边栏/导航栏/历史标题等非主内容区域的文案干扰。关键词匹配要做两层防御：1）优先匹配完整短语而非短关键词；2）触发后必须二次验证——不要直接采信，通过 CDP/JS 注入检查主内容区域（排除侧边栏）是否真有对应文案。用户不希望此类误判再次发生。"
+      "浏览器自动化 skill（ChatGPT、NanoBanana 等）页面状态检测：两层防御——1）优先匹配完整短语而非短关键词，以防侧边栏/导航栏文案误触发；2）触发后二次验证，通过 CDP/JS 注入检查主内容区域。修改 skill 代码前必须完整追踪调用链，同类型 skill 内部架构可能完全不同（如 ChatGPT 与 NanoBanana 生图架构差异）。",
+      "用户发来的文本分两类处理：①发给我的指令→理解后执行；②让我转发的正文→原封不动 pbcopy + Cmd+V 粘贴过去，不加工不转述。用户发来的任何文本优先 pbcopy + Cmd+V 而非 re-type。与 CLI 交互时同样：优先顺序 1) pbcopy + Cmd+V 2) printf 管道/heredoc 3) tee /dev/ttysXXX。Claude CLI 区分 pipeline 模式（-p --print 不支持 slash 命令）和交互模式（无 -p 有 ❯ 提示符才支持 /effort 等）。",
+      "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。"
     ],
-    "total": 15
+    "total": 18
   },
   "sessions": {
     "total": 1,
