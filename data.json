@@ -1,6 +1,6 @@
 {
   "skills": {
-    "total": 86,
+    "total": 87,
     "categories": {
       "creative": 20,
       "software-development": 13,
@@ -12,6 +12,7 @@
       "research": 5,
       "devops": 4,
       "gaming": 2,
+      "ai-agents": 1,
       "data-science": 1,
       "email": 1,
       "mcp": 1,
@@ -22,6 +23,12 @@
       "social-media": 1
     },
     "skills": [
+      {
+        "name": "gstack",
+        "category": "ai-agents",
+        "created": "2026-06-03T14:20:25.596157+00:00",
+        "modified": "2026-06-03T14:20:25.596420+00:00"
+      },
       {
         "name": "apple-reminders",
         "category": "apple",
@@ -385,14 +392,14 @@
       {
         "name": "notebooklm",
         "category": "productivity",
-        "created": "2026-05-27T13:35:01.974187+00:00",
-        "modified": "2026-05-27T13:35:01.974475+00:00"
+        "created": "2026-06-09T08:59:04.846905+00:00",
+        "modified": "2026-06-09T08:59:04.847251+00:00"
       },
       {
         "name": "media-asset-management",
         "category": "productivity",
-        "created": "2026-05-27T13:20:44.546845+00:00",
-        "modified": "2026-05-27T13:20:44.547031+00:00"
+        "created": "2026-06-09T08:59:46.706223+00:00",
+        "modified": "2026-06-09T08:59:46.707263+00:00"
       },
       {
         "name": "powerpoint",
@@ -624,8 +631,6 @@
       ],
       "2026-05-27": [
         "media-asset-management-v2",
-        "media-asset-management",
-        "notebooklm",
         "media-asset-management"
       ],
       "2026-05-28": [
@@ -633,6 +638,13 @@
         "claude-code",
         "hermes-provider-configuration",
         "efficient-task-execution"
+      ],
+      "2026-06-03": [
+        "gstack"
+      ],
+      "2026-06-09": [
+        "notebooklm",
+        "media-asset-management"
       ]
     }
   },
@@ -655,11 +667,10 @@
       "所有媒体资源统一输出到 /Users/jiangsheng/workspace/media_genernation_asset/，子目录按类型自动创建。详见 media-asset-management skill。",
       "ChatGPT 生图：cd /Users/jiangsheng/VibeCoding/hermes-agent/skills/chatgpt-image-generation && bash scripts/run.sh generate --prompt \"...\"。默认输出到 workspace/media_genernation_asset/gpt-images/（run.sh 内 DEFAULT_IMAGE_OUTPUT_DIR 已指向此路径），无需 --image-output-dir。ChatGPT 2026 版 DOM 选择器已适配：[class*=\"agent-turn\"] 替代 article。skill 支持 run-anchor 防旧图、每轮新对话、continue 重试 3 次。node_modules 缺失需 npm install。",
       "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
-      "浏览器自动化 skill（ChatGPT、NanoBanana 等）页面状态检测：两层防御——1）优先匹配完整短语而非短关键词，以防侧边栏/导航栏文案误触发；2）触发后二次验证，通过 CDP/JS 注入检查主内容区域。修改 skill 代码前必须完整追踪调用链，同类型 skill 内部架构可能完全不同（如 ChatGPT 与 NanoBanana 生图架构差异）。",
-      "用户发来的文本分两类处理：①发给我的指令→理解后执行；②让我转发的正文→原封不动 pbcopy + Cmd+V 粘贴过去，不加工不转述。用户发来的任何文本优先 pbcopy + Cmd+V 而非 re-type。与 CLI 交互时同样：优先顺序 1) pbcopy + Cmd+V 2) printf 管道/heredoc 3) tee /dev/ttysXXX。Claude CLI 区分 pipeline 模式（-p --print 不支持 slash 命令）和交互模式（无 -p 有 ❯ 提示符才支持 /effort 等）。",
+      "gstack (Garry Tan AI 角色工具集) 已装。~/.claude/skills/gstack/，symlink 到 ~/.hermes/skills/gstack-*/（53 skills）。Bun 已装。更新和修复流程见 gstack skill。核心角色：office-hours、plan-ceo-review、plan-eng-review、investigate、spec、retro、qa、design-review。",
       "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。"
     ],
-    "total": 18
+    "total": 17
   },
   "sessions": {
     "total": 1,
