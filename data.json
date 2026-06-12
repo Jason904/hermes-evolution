@@ -1,6 +1,6 @@
 {
   "skills": {
-    "total": 87,
+    "total": 88,
     "categories": {
       "creative": 20,
       "software-development": 13,
@@ -11,8 +11,8 @@
       "autonomous-ai-agents": 5,
       "research": 5,
       "devops": 4,
+      "ai-agents": 2,
       "gaming": 2,
-      "ai-agents": 1,
       "data-science": 1,
       "email": 1,
       "mcp": 1,
@@ -28,6 +28,12 @@
         "category": "ai-agents",
         "created": "2026-06-03T14:20:25.596157+00:00",
         "modified": "2026-06-03T14:20:25.596420+00:00"
+      },
+      {
+        "name": "p7-plus-thinking-training",
+        "category": "ai-agents",
+        "created": "2026-06-11T14:05:59.705838+00:00",
+        "modified": "2026-06-11T14:05:59.705959+00:00"
       },
       {
         "name": "apple-reminders",
@@ -645,6 +651,9 @@
       "2026-06-09": [
         "notebooklm",
         "media-asset-management"
+      ],
+      "2026-06-11": [
+        "p7-plus-thinking-training"
       ]
     }
   },
