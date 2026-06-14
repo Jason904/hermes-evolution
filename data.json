@@ -32,8 +32,8 @@
       {
         "name": "p7-plus-thinking-training",
         "category": "ai-agents",
-        "created": "2026-06-11T14:05:59.705838+00:00",
-        "modified": "2026-06-11T14:05:59.705959+00:00"
+        "created": "2026-06-13T15:27:58.780640+00:00",
+        "modified": "2026-06-13T15:27:58.780989+00:00"
       },
       {
         "name": "apple-reminders",
@@ -652,7 +652,7 @@
         "notebooklm",
         "media-asset-management"
       ],
-      "2026-06-11": [
+      "2026-06-13": [
         "p7-plus-thinking-training"
       ]
     }
@@ -667,7 +667,8 @@
       "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。",
       "Token 和成本意识极强，所有操作默认先想最便宜的方案。已创建 efficient-task-execution skill 记录完整的决策框架、工具成本表和判断指南。超过 2000 tokens 的操作先提醒再执行。",
       "接到任务先想最适合的方案权衡成本和可行性并选性价比最优的。小操作直接干不废话；用户不了解情况时提供选项帮判断；可能超2000 tokens先告知替代方案。核心：你不知道的我补全信息让你能决策，你知道或显而易见的我直接搞定。要配得上「优秀的人」的评价。efficient-task-execution skill 有完整框架。",
-      "不需每次都展示思考或方案清单。小操作直接干不废话；用户不了解情况时补全信息帮决策；可能超2000 tokens时简要说明权衡和推荐方案，不要一股脑全列出来。用判断力决定什么时候该展示、展示多少。详见 efficient-task-execution skill。"
+      "不需每次都展示思考或方案清单。小操作直接干不废话；用户不了解情况时补全信息帮决策；可能超2000 tokens时简要说明权衡和推荐方案，不要一股脑全列出来。用判断力决定什么时候该展示、展示多少。详见 efficient-task-execution skill。",
+      "用户要求：所有承诺的交付内容（每日两套思维训练等）直接产出并发送，不需要等用户来催\"东西呢\"。干就完了，别让用户追着要。"
     ],
     "environment": [
       "用户最常用的 NotebookLM 笔记本是「现代产品经理高分技能与社区驱动增长蓝图」(ID: 60a9f669-6782-48f2-869c-fa52c0e1ec03)，内容涵盖产品经理七大技能领域。还有 6 个其他笔记本关于 AI 胜任力、展台设计、Kai AI 架构、UI 自动化、Claude Code Bedrock 等主题。notebooklm CLI 已安装并认证，语言设 zh_Hans。",
@@ -677,9 +678,10 @@
       "ChatGPT 生图：cd /Users/jiangsheng/VibeCoding/hermes-agent/skills/chatgpt-image-generation && bash scripts/run.sh generate --prompt \"...\"。默认输出到 workspace/media_genernation_asset/gpt-images/（run.sh 内 DEFAULT_IMAGE_OUTPUT_DIR 已指向此路径），无需 --image-output-dir。ChatGPT 2026 版 DOM 选择器已适配：[class*=\"agent-turn\"] 替代 article。skill 支持 run-anchor 防旧图、每轮新对话、continue 重试 3 次。node_modules 缺失需 npm install。",
       "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
       "gstack (Garry Tan AI 角色工具集) 已装。~/.claude/skills/gstack/，symlink 到 ~/.hermes/skills/gstack-*/（53 skills）。Bun 已装。更新和修复流程见 gstack skill。核心角色：office-hours、plan-ceo-review、plan-eng-review、investigate、spec、retro、qa、design-review。",
-      "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。"
+      "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。",
+      "P7+ 每日思维训练 cron job (7c94f43200a9) 在23:00一致失败，根因是 DeepSeek API 高峰时段 Broken pipe。恢复方案：20:00 跑或换 provider。skill 的 SKILL.md 已添加故障处理章节 + references/cron-failure-patterns.md 记录详细日志。"
     ],
-    "total": 17
+    "total": 19
   },
   "sessions": {
     "total": 1,
@@ -696,8 +698,12 @@
     "jobs": []
   },
   "versions": {
-    "current": "v2026.5.16",
+    "current": "v2026.6.5",
     "tags": [
+      "v2026.6.5",
+      "v2026.5.29.2",
+      "v2026.5.29",
+      "v2026.5.28",
       "v2026.5.16",
       "v2026.5.7",
       "v2026.4.30",
