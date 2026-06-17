@@ -32,8 +32,8 @@
       {
         "name": "p7-plus-thinking-training",
         "category": "ai-agents",
-        "created": "2026-06-13T15:27:58.780640+00:00",
-        "modified": "2026-06-13T15:27:58.780989+00:00"
+        "created": "2026-06-16T14:57:07.538302+00:00",
+        "modified": "2026-06-16T14:57:07.538653+00:00"
       },
       {
         "name": "apple-reminders",
@@ -652,17 +652,17 @@
         "notebooklm",
         "media-asset-management"
       ],
-      "2026-06-13": [
+      "2026-06-16": [
         "p7-plus-thinking-training"
       ]
     }
   },
   "memory": {
     "user": [
-      "用户是 AI 产品经理，CV 方向背景（2020年起），技术型 PM。关注 AI Agent/Skill 生态、多模态、3D 生成、AI Coding。思考框架：以终为始 + 第一性原理 + 脉络关联性。沟通偏好：中文回复，结论先行，高效直接——能自行验证的不发截图让用户确认。所有技能和媒体资源需集中管理，不要散落各处。文件管理偏好自动分类维护，不手动操心。",
+      "AI PM，CV（2020起），技术型。关注 Agent/Skill、多模态、3D生成、AI Coding。沟通：中文结论先行。资源集中管理不散落。P7+训练输出约束：强判断须写条件和反例；机会先分三类不直接跳创业；非官方数字降级待验证；「不做什么」可做组件的不粗暴否定。",
       "用户期望 agent 自行验证操作结果，不要反复发截图让用户帮忙确认。当视觉工具不可用时，应先用 OCR（tesseract）、AX tree、JS 注入等方式自行检查，只在所有方法都失败时才找用户。偏好高效直接——能自行验证就自行验证。",
       "用户期望我先自己验证结果，不要反复发截图让用户帮忙确认。token 消耗敏感：computer_use capture（2000-4000 input tokens）必须事先提醒并征求同意；terminal/osascript/click/type(key) 等低成本操作（<500 tokens）可直接执行无需报批。从微信发来的指令同样遵循此规则。",
-      "不要发送截图让用户帮你验证操作结果——用户期望你自己验证每一步。遇到无法自己看图的情况（如视觉模型不支持），优先用 OCR/AX tree/JS 等方式自行验证，截图分享只作为最后手段且要问具体问题而非\"你看看对不对\"。",
+      "输出质量要求「认知精确性」：禁止过度承诺（\"N天自动形成\"→只说稳定性提升需主动复盘），禁止数据口径模糊（下载量≠月活等），禁止趋势判断绝对化（必须条件化：如果X成立，才可能Y），禁止模板错位（不同案例话题不能混入不相关模板文本）。这些偏好适用于所有任务，不限于P7+训练。",
       "用户是 AI 产品经理，关注领域：AI Agent/Skill 生态、商业化路径、AI 多模态、AI 生成 3D 及 3D 全链路、AI Coding。沟通风格：结论先行。思考框架：以终为始 + 第一性原理 + 脉络关联性分析。",
       "用户专业背景：2020年起从事AI工作，方向为计算机视觉（CV）。技术型AI产品经理（非算法工程师），做过AI算法0→1全链路的产品工作（模型预训练→微调→业务落地），之后转型AIoT产品经理（物联网互联互通、智能终端硬件）。硕士学历，方向用户体验设计。会使用 Claude Code、Codex 等 vibe coding 工具进行开发。",
       "Token 和成本意识极强，所有操作默认先想最便宜的方案。已创建 efficient-task-execution skill 记录完整的决策框架、工具成本表和判断指南。超过 2000 tokens 的操作先提醒再执行。",
@@ -679,7 +679,7 @@
       "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
       "gstack (Garry Tan AI 角色工具集) 已装。~/.claude/skills/gstack/，symlink 到 ~/.hermes/skills/gstack-*/（53 skills）。Bun 已装。更新和修复流程见 gstack skill。核心角色：office-hours、plan-ceo-review、plan-eng-review、investigate、spec、retro、qa、design-review。",
       "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。",
-      "P7+ 每日思维训练 cron job (7c94f43200a9) 在23:00一致失败，根因是 DeepSeek API 高峰时段 Broken pipe。恢复方案：20:00 跑或换 provider。skill 的 SKILL.md 已添加故障处理章节 + references/cron-failure-patterns.md 记录详细日志。"
+      "P7+ 每日思维训练 cron job (7c94f43200a9) 的 deliver 从 'local' 修复为 'origin'，确保每天 20:00 生成的内容自动发送到用户微信。规则：所有 cron job 产出必须送达用户（deliver 必须是 'origin' 或显式目标），不能只存 local。任何新创建的定期任务默认 deliver=origin。"
     ],
     "total": 19
   },
