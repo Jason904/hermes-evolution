@@ -32,8 +32,8 @@
       {
         "name": "p7-plus-thinking-training",
         "category": "ai-agents",
-        "created": "2026-06-16T14:57:07.538302+00:00",
-        "modified": "2026-06-16T14:57:07.538653+00:00"
+        "created": "2026-06-17T19:07:55.396449+00:00",
+        "modified": "2026-06-17T19:07:55.396787+00:00"
       },
       {
         "name": "apple-reminders",
@@ -652,7 +652,7 @@
         "notebooklm",
         "media-asset-management"
       ],
-      "2026-06-16": [
+      "2026-06-17": [
         "p7-plus-thinking-training"
       ]
     }
@@ -679,7 +679,7 @@
       "NanoBanana 生图 skill: /Users/jiangsheng/VibeCoding/hermes-agent/skills/nano-banana-image-generation/。CDP 端口 9223，URL https://gemini.google.com/app，输出到 workspace/media_genernation_asset/nano-banana-images/。命令：bash scripts/run.sh generate --prompt \"...\"。skill 加载失败时检查目录名是否含尾部空格（ls -1b 查看）。",
       "gstack (Garry Tan AI 角色工具集) 已装。~/.claude/skills/gstack/，symlink 到 ~/.hermes/skills/gstack-*/（53 skills）。Bun 已装。更新和修复流程见 gstack skill。核心角色：office-hours、plan-ceo-review、plan-eng-review、investigate、spec、retro、qa、design-review。",
       "macOS 多 Terminal 窗口场景下，用 ps aux 确认进程 PID + lsof -p <PID> 查看关联 /dev/ttys，确保管道输送到正确终端。osascript keystroke 在中文输入法下会变异特殊符号，必须作为最后手段且先强制切 ABC 输入法（key code 49 using {option down, command down}）。",
-      "P7+ 每日思维训练 cron job (7c94f43200a9) 的 deliver 从 'local' 修复为 'origin'，确保每天 20:00 生成的内容自动发送到用户微信。规则：所有 cron job 产出必须送达用户（deliver 必须是 'origin' 或显式目标），不能只存 local。任何新创建的定期任务默认 deliver=origin。"
+      "P7+训练 cron：虽然已设 deliver=local 避免直接推送，但之前设为 deliver=origin 时 WeChat iLink 限流（ret=-2）会导致内容生成成功但发送静默失败。cron 的 last_status=ok 不代表用户收到了内容——需额外检查 last_delivery_error。更新了 cron-failure-patterns.md 以记录此失败模式。"
     ],
     "total": 19
   },
